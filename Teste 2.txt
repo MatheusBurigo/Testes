@@ -1,0 +1,21 @@
+Tarefa 2
+Analise o cenário a seguir:
+SQL 1	SQL 2
+SELECT COUNT(Codigo) as Total 
+FROM Pedido
+
+
+Total = 100	SELECT COUNT(Codigo) as Total123 
+FROM Pedido 
+WHERE CodigoComprador = 123
+
+Total123 = 15
+
+Dado o resulado acima, qual será o resultado do SQL abaixo?
+
+SELECT COUNT(Codigo) as TotalFinal FROM Pedido WHERE CodigoComprador <> 123
+
+--------------------
+
+Resultado:
+O valor é TotalFinal = 85.
